@@ -473,6 +473,11 @@ h2 {
     font-size: 2rem;
   }
 }
+@media (max-width: 1000px) {
+  .header .hamburger {
+    z-index: 10;
+  }
+}
 @media (max-width: 730px) {
   .header .hamburger {
     flex-direction: column;
