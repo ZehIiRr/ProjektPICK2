@@ -365,6 +365,9 @@ h2 {
     display: flex;
     flex-direction: column;
   }
+  .main .hamburger {
+    z-index: 10;
+  }
   .main .right-head .login,
 .main .right-head .addons,
 .main .right-head .products,
@@ -465,10 +468,6 @@ h2 {
     flex-direction: column;
   }
 }
-.hamburger {
-  display: block;
-}
-
 @media (max-width: 605px) {
   .img-right .hero-text {
     font-size: 2rem;
